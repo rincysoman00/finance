@@ -35,7 +35,7 @@ class Home extends StatelessWidget {
                   bottom: BorderSide(width: 1, color: Colors.transparent),
                 ),
                 image: DecorationImage(
-                  image: AssetImage('assets/images/image1.png'),
+                  image: AssetImage('assets/images/image1 (1).png'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -67,7 +67,7 @@ class Home extends StatelessWidget {
                                       builder: (context) => const Send()),
                                 );
                               },
-                              child: Image.asset('assets/images/Frame 1.png',
+                              child: Image.asset('assets/images/Frame 1 (1).png',
                                   fit: BoxFit.cover)),
                         ),
                         const SizedBox(
@@ -100,7 +100,7 @@ class Home extends StatelessWidget {
                                       builder: (context) => const ReceiveScreen()),
                                 );
                               },
-                              child: Image.asset('assets/images/Frame 2.png',
+                              child: Image.asset('assets/images/Frame 2 (1).png',
                                   fit: BoxFit.cover)),
                         ),
                         const SizedBox(
@@ -132,7 +132,7 @@ class Home extends StatelessWidget {
                                       builder: (context) => const Swap()),
                                 );
                               },
-                              child: Image.asset('assets/images/Frame 3.png',
+                              child: Image.asset('assets/images/Frame 3 (2).png',
                                   fit: BoxFit.cover)),
                         ),
                         const SizedBox(

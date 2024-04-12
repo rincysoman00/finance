@@ -200,7 +200,7 @@ class Swap extends StatelessWidget {
                         ),
                       ),
                       child: Image.asset(
-                        'assets/images/image11 (1).png',
+                        'assets/images/Swap Icon.png',
                         width: 20,
                         height: 20,
                       ),

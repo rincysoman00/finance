@@ -61,7 +61,7 @@ class AcademyScreen extends StatelessWidget {
                     height: 38,
                     decoration: const BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage('assets/images/image11 (1).png'),
+                        image: AssetImage('assets/images/image 11.png'),
                         fit: BoxFit.fill,
                       ),
                     ),
@@ -102,7 +102,7 @@ class AcademyScreen extends StatelessWidget {
                     height: 38,
                     decoration: const BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage('assets/images/image11 (1).png'),
+                        image: AssetImage('assets/images/image 11.png'),
                         fit: BoxFit.fill,
                       ),
                     ),
@@ -143,7 +143,7 @@ class AcademyScreen extends StatelessWidget {
                     height: 38,
                     decoration: const BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage('assets/images/image11 (1).png'),
+                        image: AssetImage('assets/images/image 11.png'),
                         fit: BoxFit.fill,
                       ),
                     ),
@@ -184,7 +184,7 @@ class AcademyScreen extends StatelessWidget {
                     height: 38,
                     decoration: const BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage('assets/images/image11 (1).png'),
+                        image: AssetImage('assets/images/image 11.png'),
                         fit: BoxFit.fill,
                       ),
                     ),

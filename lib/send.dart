@@ -49,7 +49,7 @@ class Send extends StatelessWidget {
                 height:
                     6), 
             Container(
-              width: 328,
+              width: 385,
               height: 56,
               clipBehavior: Clip.antiAlias,
               decoration: ShapeDecoration(
@@ -115,7 +115,7 @@ class Send extends StatelessWidget {
                 height:
                     6), 
             Container(
-              width: 328,
+              width: 385,
               height: 56,
               padding: const EdgeInsets.only(
                 top: 16,
@@ -187,7 +187,7 @@ class Send extends StatelessWidget {
                 height:
                     6), 
             Container(
-              width: 328,
+              width: 385,
               height: 56,
               padding: const EdgeInsets.only(
                 top: 16,
@@ -253,7 +253,7 @@ class Send extends StatelessWidget {
                 height:
                     150),
             Container(
-              width: 328,
+              width: 385,
               height: 56,
               padding: const EdgeInsets.symmetric(vertical: 13),
               clipBehavior: Clip.antiAlias,

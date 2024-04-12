@@ -1,6 +1,5 @@
 import 'package:finance_app/home.dart';
 import 'package:flutter/material.dart';
- // Import the Send screen if it's defined in a separate file
 
 class ReceiveScreen extends StatelessWidget {
   const ReceiveScreen({super.key});
@@ -39,7 +38,7 @@ class ReceiveScreen extends StatelessWidget {
               width: 64,
               height: 64,
             ),
-            const SizedBox(height: 10), 
+            const SizedBox(height: 10),
             const Text(
               "BTC (BEP20)",
               style: TextStyle(
@@ -63,11 +62,12 @@ class ReceiveScreen extends StatelessWidget {
                 fit: BoxFit.fill,
               ),
             ),
-           const SizedBox(height: 20,),
+            const SizedBox(height: 20),
             Container(
               width: 350,
               height: 72,
-              padding: const EdgeInsets.symmetric(horizontal: 21, vertical: 12),
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 21, vertical: 12),
               clipBehavior: Clip.antiAlias,
               decoration: ShapeDecoration(
                 color: const Color(0xFF252530),
@@ -75,36 +75,36 @@ class ReceiveScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
               ),
-              child: const Row(
-                mainAxisSize: MainAxisSize.min,
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  SizedBox(
-                    width: 286,
-                    child: Text(
-                      '010223jjnbee5eeu289291003945hkk42f22keem1a3',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                        color: Color(0xFFF5F5F5),
-                        fontSize: 16,
-                        fontFamily: 'Poppins',
-                        fontWeight: FontWeight.w500,
-                        height: 0,
-                      ),
-                    ),
+              child: const SizedBox(
+                width: 286,
+                child: Text(
+                  '010223jjnbee5eeu289291003945hkk42f22keem1a3',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Color(0xFFF5F5F5),
+                    fontSize: 16,
+                    fontFamily: 'Poppins',
+                    fontWeight: FontWeight.w500,
+                    height: 0,
                   ),
-                ],
+                ),
               ),
             ),
-            const Spacer(), 
+            const SizedBox(height: 8), // Added SizedBox for spacing
+            const Text(
+              "Only BTC can be sent to this address",
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w500,
+                color: Colors.white,
+              ),
+            ),
+            const Spacer(),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton(
-                  onPressed: () {
-                   
-                  },
+                  onPressed: () {},
                   style: ElevatedButton.styleFrom(
                     backgroundColor: const Color.fromARGB(66, 70, 71, 69),
                     shape: RoundedRectangleBorder(

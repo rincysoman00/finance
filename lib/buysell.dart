@@ -375,7 +375,7 @@ class BuySellPage extends StatelessWidget {
                           height: 28,
                           decoration: const BoxDecoration(
                             image: DecorationImage(
-                              image: AssetImage('assets/images/image 8 (3).png'),
+                              image: AssetImage('assets/images/image8 (1).png'),
                               fit: BoxFit.fill,
                             ),
                           ),
